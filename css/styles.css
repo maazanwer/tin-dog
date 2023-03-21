@@ -1,0 +1,156 @@
+body{
+  text-align: center;
+
+}
+/* TITLE */
+#title {
+  background-color: #ff4c68;
+  font-family: Montserrat;
+  position: relative;
+}
+.title-img {
+  width: 80%;
+  transform: rotate(25deg);
+  margin-left: 1rem;
+}
+@media (max-width: 991px) {
+  .title-img {
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+.download-button {
+  margin: 5% 3% 0 3%;
+}
+#title #catchphrase{
+  text-align: left;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* NAVIGATION BAR */
+
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.navbar-brand {
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px 0 18px;
+  font-size: 1.2rem;
+}
+
+/* FEATURES */
+#features {
+  text-align: center;
+  background-color: white;
+  position: relative;
+  bottom: 130px;
+  z-index: 1;
+}
+
+@media (max-width: 991px) {
+  #features {
+    position: static;
+  }
+}
+
+.rw-universal {
+  padding: 7% 15%;
+}
+
+.icon-fa {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon-fa:hover {
+  color: #ff4c68;
+  cursor: pointer;
+}
+
+.para-feature {
+  color: grey;
+  padding: 0 1rem;
+}
+
+.heading-feature {
+  font-weight: bold;
+}
+
+/*testimonial*/
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 1rem;
+}
+
+.testimonial-sent {
+  color: #fff;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+/*press section*/
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 7% 0 8% 0;
+}
+
+/* carousel button */
+.carousel-item {
+  padding: 7% 25%;
+}
+
+/* CTA */
+#cta {
+  background-color: #ff4c68;
+  font-family: Montserrat;
+  padding: 7% 20%;
+}
+
+#cta-catchphrase {
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+.cta-button {
+  margin: 0 5px;
+}
+
+/* FOOTER */
+#footer {
+  background-color: white;
+  padding: 7% 15%;
+}
+
+.footer-img {
+  padding: 2.5px;
+}
